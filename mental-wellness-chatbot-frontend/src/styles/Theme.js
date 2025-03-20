@@ -1,126 +1,172 @@
-// Theme.js
+// Theme.js with enhanced vibrant colors and effects
 export const theme = {
   colors: {
-    // Modern gradient-inspired colors
-    primary: '#8A2BE2', // Vivid purple
-    primaryGradient: 'linear-gradient(135deg, #8A2BE2 0%, #5D3FD3 100%)',
-    primaryLight: '#B983FF',
-    primaryDark: '#6A0DAD',
+    // Core brand colors with more vibrant palette
+    primary: '#9D4EDD', // Vibrant purple
+    primaryGradient: 'linear-gradient(135deg, #9D4EDD 0%, #7B2CBF 100%)',
+    primaryLight: '#C77DFF',
+    primaryDark: '#5A189A',
+    primaryNeon: '#C77DFF',
     
-    secondary: '#00C9A7', // Turquoise
-    secondaryGradient: 'linear-gradient(135deg, #00C9A7 0%, #00A3C4 100%)',
-    secondaryLight: '#4ADEBB',
-    secondaryDark: '#00A896',
+    secondary: '#00F5D4', // Vibrant turquoise
+    secondaryGradient: 'linear-gradient(135deg, #00F5D4 0%, #00BBF9 100%)',
+    secondaryLight: '#72EFDD',
+    secondaryDark: '#0096C7',
+    secondaryNeon: '#00F5D4',
     
-    accent: '#FF6B6B', // Coral
-    accentGradient: 'linear-gradient(135deg, #FF6B6B 0%, #FF8E53 100%)',
+    accent: '#FF5E78', // Vibrant coral
+    accentGradient: 'linear-gradient(135deg, #FF5E78 0%, #FF9E64 100%)',
+    accentNeon: '#FF5E78',
     
-    // Modern background with subtle gradient
-    background: '#F4F7FD',
-    backgroundGradient: 'linear-gradient(135deg, #F4F7FD 0%, #F0F4FA 100%)',
+    // Modern background with enhanced gradient
+    background: '#F0F4FF',
+    backgroundGradient: 'linear-gradient(135deg, #F0F4FF 0%, #E6EFFF 100%)',
     foreground: '#FFFFFF',
     
-    // Glass effect colors
+    // Glass effect colors enhanced
     glass: 'rgba(255, 255, 255, 0.25)',
-    glassBorder: 'rgba(255, 255, 255, 0.18)',
+    glassDark: 'rgba(240, 244, 255, 0.15)',
+    glassBorder: 'rgba(255, 255, 255, 0.2)',
     glassShadow: 'rgba(31, 38, 135, 0.15)',
     
-    // Text colors with better contrast
-    text: '#1A1A2E',
-    textLight: '#4A4A68',
-    textMuted: '#8888A0',
-    headings: '#0F0F1B',
+    // Enhanced text colors
+    text: '#151439',
+    textLight: '#484774',
+    textMuted: '#7B7BAF',
+    headings: '#0F0F2D',
     
-    // Status colors with modern tones
-    error: '#FF5A5F',
-    success: '#00BFA6',
-    warning: '#FFB400',
-    info: '#2389FF',
+    // Status colors with neon tones
+    error: '#FF427F',
+    errorNeon: '#FF427F',
+    success: '#00D68F',
+    successNeon: '#00F5A0',
+    warning: '#FFBE0B',
+    warningNeon: '#FFD60A',
+    info: '#3DBBFF',
+    infoNeon: '#42C6FF',
     
     // Enhanced scrollbar
-    scrollTrack: 'rgba(244, 247, 253, 0.8)',
-    scrollThumb: 'rgba(138, 43, 226, 0.3)',
-    scrollThumbHover: 'rgba(138, 43, 226, 0.5)',
+    scrollTrack: 'rgba(240, 244, 255, 0.8)',
+    scrollThumb: 'rgba(157, 78, 221, 0.3)',
+    scrollThumbHover: 'rgba(157, 78, 221, 0.6)',
     
-    // Card and UI elements
+    // Card and UI elements with enhanced aesthetics
     cardBackground: '#FFFFFF',
-    cardBackgroundAlt: '#F9FAFF',
+    cardBackgroundAlt: '#F8FAFF',
     cardBorder: 'rgba(231, 236, 247, 0.8)',
+    cardGlow: '0 0 15px rgba(157, 78, 221, 0.15)',
     cardShadow: 'rgba(31, 38, 135, 0.07)',
     divider: '#E7ECF7',
     disabled: '#E2E8F5',
     
-    // Mood colors with nicer gradient potential
-    mood: {
-      veryBad: '#FF5A5F',
-      bad: '#FF9466',
-      neutral: '#FFCD69',
-      good: '#4ADEBB',
-      veryGood: '#2389FF',
+    // Dashboard color scheme
+    dashboard: {
+      background: 'linear-gradient(135deg, #F0F4FF 0%, #E6EFFF 100%)',
+      cardBackground: 'rgba(255, 255, 255, 0.9)',
+      accent1: '#9D4EDD',
+      accent2: '#00F5D4',
+      accent3: '#FF5E78',
+      accent4: '#FFBE0B',
     },
     
-    // Dark theme glass effect
-    darkGlass: 'rgba(16, 18, 27, 0.4)',
-    darkGlassBorder: 'rgba(16, 18, 27, 0.2)',
-  },
-  
-  // For dark mode
-  darkColors: {
-    primary: '#A16AE8',
-    primaryGradient: 'linear-gradient(135deg, #A16AE8 0%, #7B61FF 100%)',
-    primaryLight: '#C297FF',
-    primaryDark: '#8657E1',
+    // Mood colors with neon gradient potential
+    mood: {
+      veryBad: '#FF427F',
+      bad: '#FF7B54',
+      neutral: '#FFBE0B',
+      good: '#00D68F',
+      veryGood: '#3DBBFF',
+    },
     
-    secondary: '#30D9C8',
-    secondaryGradient: 'linear-gradient(135deg, #30D9C8 0%, #2BBAD8 100%)',
-    secondaryLight: '#60E6D9',
-    secondaryDark: '#20B2A3',
+    // Neon glow colors
+    neon: {
+      purple: '0 0 10px #C77DFF, 0 0 20px rgba(157, 78, 221, 0.5)',
+      blue: '0 0 10px #42C6FF, 0 0 20px rgba(0, 187, 249, 0.5)',
+      green: '0 0 10px #72EFDD, 0 0 20px rgba(0, 245, 212, 0.5)',
+      pink: '0 0 10px #FF5E78, 0 0 20px rgba(255, 94, 120, 0.5)',
+      yellow: '0 0 10px #FFE45E, 0 0 20px rgba(255, 190, 11, 0.5)',
+    },
     
-    accent: '#FF7E87',
-    accentGradient: 'linear-gradient(135deg, #FF7E87 0%, #FF9E6D 100%)',
-    
-    background: '#14142B',
-    backgroundGradient: 'linear-gradient(135deg, #14142B 0%, #1E1E3F 100%)',
-    foreground: '#1A1A2E',
-    
-    text: '#E9ECEF',
-    textLight: '#B0B7C3',
-    textMuted: '#8188A0',
-    headings: '#FFFFFF',
-    
-    cardBackground: '#1E1E3F',
-    cardBackgroundAlt: '#24243F',
-    cardBorder: 'rgba(37, 37, 66, 0.8)',
-    divider: '#2D2D52',
-    disabled: '#3F3F68',
-    
-    scrollTrack: 'rgba(30, 30, 63, 0.8)',
-    scrollThumb: 'rgba(161, 106, 232, 0.3)',
-    scrollThumbHover: 'rgba(161, 106, 232, 0.5)',
+    // Dark theme with enhanced colors
+    darkColors: {
+      primary: '#B67AFF',
+      primaryGradient: 'linear-gradient(135deg, #B67AFF 0%, #915EFF 100%)',
+      primaryLight: '#D0A1FF',
+      primaryDark: '#8A4FFF',
+      primaryNeon: '#B67AFF',
+      
+      secondary: '#5EFFE9',
+      secondaryGradient: 'linear-gradient(135deg, #5EFFE9 0%, #4BC0FF 100%)',
+      secondaryLight: '#80FFF0',
+      secondaryDark: '#33D6FF',
+      
+      accent: '#FF7A8F',
+      accentGradient: 'linear-gradient(135deg, #FF7A8F 0%, #FFB47A 100%)',
+      
+      background: '#0A0A1F',
+      backgroundGradient: 'linear-gradient(135deg, #0A0A1F 0%, #13133A 100%)',
+      foreground: '#13133A',
+      
+      text: '#E9ECFF',
+      textLight: '#B0B7FF',
+      textMuted: '#8188D9',
+      headings: '#FFFFFF',
+      
+      cardBackground: '#1C1C4D',
+      cardBackgroundAlt: '#232363',
+      cardBorder: 'rgba(37, 37, 66, 0.8)',
+      cardGlow: '0 0 15px rgba(182, 122, 255, 0.2)',
+      divider: '#2D2D75',
+      disabled: '#3F3F8A',
+      
+      // Dark theme dashboard
+      dashboard: {
+        background: 'linear-gradient(135deg, #0A0A1F 0%, #13133A 100%)',
+        cardBackground: 'rgba(28, 28, 77, 0.9)',
+        accent1: '#B67AFF',
+        accent2: '#5EFFE9',
+        accent3: '#FF7A8F',
+        accent4: '#FFBE0B',
+      },
+      
+      scrollTrack: 'rgba(10, 10, 31, 0.8)',
+      scrollThumb: 'rgba(182, 122, 255, 0.3)',
+      scrollThumbHover: 'rgba(182, 122, 255, 0.6)',
+    },
   },
   
   borderRadius: {
-    sm: '0.375rem',
-    md: '0.75rem',
-    lg: '1.25rem',
+    xs: '0.25rem',
+    sm: '0.5rem',
+    md: '1rem',
+    lg: '1.5rem',
     xl: '2rem',
+    pill: '50rem',
     full: '9999px',
   },
   
   boxShadow: {
-    sm: '0 2px 8px rgba(31, 38, 135, 0.07)',
+    sm: '0 2px 10px rgba(31, 38, 135, 0.07)',
     md: '0 4px 20px rgba(31, 38, 135, 0.1)',
     lg: '0 8px 30px rgba(31, 38, 135, 0.12)',
     xl: '0 15px 50px rgba(31, 38, 135, 0.15)',
     glass: '0 8px 32px 0 rgba(31, 38, 135, 0.15)',
     inner: 'inset 0 2px 4px 0 rgba(31, 38, 135, 0.06)',
-    coloredSm: '0 2px 8px rgba(138, 43, 226, 0.25)',
-    coloredMd: '0 4px 20px rgba(138, 43, 226, 0.3)',
+    coloredSm: '0 2px 10px rgba(157, 78, 221, 0.25)',
+    coloredMd: '0 4px 20px rgba(157, 78, 221, 0.3)',
+    coloredLg: '0 8px 30px rgba(157, 78, 221, 0.35)',
+    neon: '0 0 10px rgba(157, 78, 221, 0.5), 0 0 20px rgba(157,, 78, 221, 0.3)',
+    neonStrong: '0 0 10px rgba(157, 78, 221, 0.7), 0 0 20px rgba(157, 78, 221, 0.5), 0 0 30px rgba(157, 78, 221, 0.3)',
+    neonSecondary: '0 0 10px rgba(0, 245, 212, 0.5), 0 0 20px rgba(0, 245, 212, 0.3)',
+    neonAccent: '0 0 10px rgba(255, 94, 120, 0.5), 0 0 20px rgba(255, 94, 120, 0.3)',
+    neonSuccess: '0 0 10px rgba(0, 214, 143, 0.5), 0 0 20px rgba(0, 214, 143, 0.3)',
+    neonError: '0 0 10px rgba(255, 66, 127, 0.5), 0 0 20px rgba(255, 66, 127, 0.3)',
   },
   
   typography: {
     fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
-    altFontFamily: "'Manrope', sans-serif", // Add a secondary font for variety
+    altFontFamily: "'Manrope', sans-serif",
+    modernFontFamily: "'Space Grotesk', 'Outfit', sans-serif", // Add more modern fonts
     fontSizes: {
       xs: '0.75rem',
       sm: '0.875rem',
@@ -132,6 +178,7 @@ export const theme = {
       '4xl': '2.25rem',
       '5xl': '3rem',
       '6xl': '4rem',
+      '7xl': '5rem',
     },
     fontWeights: {
       light: 300,
@@ -168,6 +215,7 @@ export const theme = {
     '3xl': '3rem',
     '4xl': '4rem',
     '5xl': '6rem',
+    '6xl': '8rem',
   },
   
   breakpoints: {
@@ -180,11 +228,13 @@ export const theme = {
   },
   
   transitions: {
-    quick: 'all 0.15s cubic-bezier(0.4, 0, 0.2, 1)',
+    instant: 'all 0.1s ease',
+    quick: 'all 0.2s cubic-bezier(0.4, 0, 0.2, 1)',
     default: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
     smooth: 'all 0.5s cubic-bezier(0.4, 0, 0.2, 1)',
     bounce: 'all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55)',
-    elegant: 'all 0.6s cubic-bezier(0.23, 1, 0.32, 1)',
+    elastic: 'all 0.6s cubic-bezier(0.25, 0.8, 0.25, 1.2)',
+    elegant: 'all 0.7s cubic-bezier(0.23, 1, 0.32, 1)',
     spring: 'all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275)',
   },
   
@@ -205,13 +255,16 @@ export const theme = {
     modal: 1050,
     popover: 1060,
     tooltip: 1070,
+    notification: 1080,
   },
   
   // Animation durations
   animation: {
+    fastest: '0.1s',
     fast: '0.3s',
     default: '0.5s',
     slow: '0.8s',
+    slowest: '1.2s',
   },
   
   // Blur effects
@@ -219,5 +272,26 @@ export const theme = {
     sm: '4px',
     md: '8px',
     lg: '16px',
-  }
+    xl: '24px',
+  },
+  
+  // Gradients
+  gradients: {
+    primary: 'linear-gradient(135deg, #9D4EDD 0%, #7B2CBF 100%)',
+    secondary: 'linear-gradient(135deg, #00F5D4 0%, #00BBF9 100%)',
+    accent: 'linear-gradient(135deg, #FF5E78 0%, #FF9E64 100%)',
+    success: 'linear-gradient(135deg, #00D68F 0%, #00A870 100%)',
+    error: 'linear-gradient(135deg, #FF427F 0%, #FF0055 100%)',
+    warning: 'linear-gradient(135deg, #FFBE0B 0%, #FB8500 100%)',
+    info: 'linear-gradient(135deg, #3DBBFF 0%, #0096FF 100%)',
+    purple: 'linear-gradient(135deg, #9D4EDD 0%, #6A3093 100%)',
+    blue: 'linear-gradient(135deg, #00BBF9 0%, #0072FF 100%)',
+    teal: 'linear-gradient(135deg, #00F5D4 0%, #00BBF9 100%)',
+    pink: 'linear-gradient(135deg, #FF5E78 0%, #FF0055 100%)',
+    orange: 'linear-gradient(135deg, #FF9E64 0%, #FB8500 100%)',
+    yellow: 'linear-gradient(135deg, #FFBE0B 0%, #FB8500 100%)',
+    green: 'linear-gradient(135deg, #00F5D4 0%, #00D68F 100%)',
+    darkPurple: 'linear-gradient(135deg, #5A189A 0%, #3C096C 100%)',
+    rainbow: 'linear-gradient(90deg, #9D4EDD 0%, #00F5D4 50%, #FF5E78 100%)',
+  },
 };
